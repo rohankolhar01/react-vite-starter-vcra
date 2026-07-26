@@ -1,4 +1,6 @@
-const API_BASE = "/api";
+// Slate's /api rewrite (catalyst-web-config.json) isn't being applied in production,
+// so call the AppSail backend directly - already proven CORS-safe from this frontend.
+const API_BASE = "https://test-50044291949.development.catalystappsail.in";
 
 export async function fetchStats() {
   const res = await fetch(`${API_BASE}/stats`);
