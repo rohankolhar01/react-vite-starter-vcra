@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "target": "https://test-50044291949.development.catalystappsail.in/$1"
+    }
+  ]
+}
