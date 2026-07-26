@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = '/api';
+const API_URL = 'https://test-50044291949.development.catalystappsail.in';
 
 export default function App() {
   const [query, setQuery] = useState('tell me about theft');
