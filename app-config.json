@@ -1,0 +1,21 @@
+{
+ "command": "python3 app.py",
+ "build_path": "./",
+ "stack": "python_3_11",
+ "env_variables": {
+  "QUICKML_ORG_ID": "60079735498",
+  "QUICKML_PROJECT_ID": "45860000000013025",
+  "QUICKML_LLM_ENDPOINT_URL": "https://api.catalyst.zoho.in/quickml/v1/project/45860000000013025/glm/chat",
+  "QUICKML_LLM_MODEL": "crm-di-glm47b_30b_it",
+  "QUICKML_RAG_ENDPOINT_URL": "https://console.catalyst.zoho.in/quickml/v1/project/45860000000013025/rag/answer",
+  "QUICKML_RAG_DOCUMENT_IDS": "7533000000003005",
+  "QUICKML_DATASTORE_TABLE": "fir",
+  "ZOHO_CLIENT_ID": "1000.AKTUQN3EQFK5BVEBSRY3K9WD3LTLDH",
+  "ZOHO_CLIENT_SECRET": "80dc67e1081321224ff17e0dd68d44930b62dbfa96",
+  "ZOHO_REFRESH_TOKEN": "1000.8b4e6da5fc016acdd8e635ebca716314.ab132d3badc3e4c9149d18aa70c33622",
+  "ZOHO_ACCOUNTS_URL": "https://accounts.zoho.in",
+  "ZOHO_DATASTORE_REFRESH_TOKEN": "1000.61e8cd3fe68d3be39a96ca9ca063390d.931200b95e58dca3c3de0c31b09cf6c8"
+ },
+ "memory": 256,
+ "scripts": {}
+}
